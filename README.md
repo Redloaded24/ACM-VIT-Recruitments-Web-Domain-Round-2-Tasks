@@ -14,5 +14,5 @@ Aravind S
 21MID0229
 </h3>
 <h1>Preview</h1>
-<img src="images/image1.png">  
+<img src="images/demo.gif">  
 Check out the images folder to see other preview photos.
