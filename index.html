@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Finance Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index1.css">
+  <style text="text/css";>
+    body{
+      background-image: url("https://wallpaperaccess.com/full/1567833.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style> 
+</head>
+<body>
+  ACM-VIT Recruitments | Web Domain | Round 2 Tasks
+  <div class="app">
+    <h1>Personal Finance Manager</h1>
+
+    <div class="cashflow-container">
+      <div class="income-container">
+        <h2>Income</h2>
+        <div id="income">$1200</div>
+      </div>
+      <div class="expense-container">
+        <h2>Expense</h2>
+        <div id="expense">$200</div>
+      </div>
+    </div>
+
+    <div class="balance-container">
+      <h2>Your Balance</h2>
+      <div id="balance">$1000</div>
+    </div>
+
+    <div class="transaction-container">
+      <h2>Transaction History</h2>
+      <ul id="transaction">
+        
+      </ul>
+    <div class="form-container">
+      <h2>Add new transaction</h2>
+      <form onsubmit="return false">
+        <label for="name">Name of Transaction</label>
+        <input id="name" type="text">
+        <label for="amount">Amount</label>
+        <input id="amount" type="number">
+        <button id="incomeBtn">Add Income</button>
+        <button id="expenseBtn">Add Expense</button>
+      </form>
+    </div>  
+    </div>
+  </div>
+  #BecauseTechnologyMatters
+  <script src="index1.js"></script>
+  
+</body>
+</html>
